@@ -29,13 +29,13 @@
 
 **When active funds won and lost** (share of active funds ahead of the index over the previous 3 years):
 
-![Share ahead over time](output/share_ahead_over_time.png)
+![Share ahead over time](images/share_ahead_over_time.png)
 
 | Year | 2016–17 | 2019–21 | 2023 | 2025–26 |
 |---|---|---|---|---|
 | Active funds ahead | ~98% | ~30% | 47% | ~90% |
 
-Charts in `output/`: `growth_of_1_lakh.png`, `rolling_win_rate.png`, `share_ahead_over_time.png`.
+Charts in `images/`: `growth_of_1_lakh.png`, `rolling_win_rate.png`, `share_ahead_over_time.png`.
 
 ## Limitations (read before trusting the headline)
 

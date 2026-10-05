@@ -18,7 +18,7 @@ for path in glob.glob("data/*.json"):
     df["date"] = pd.to_datetime(df["date"], format="%d-%m-%Y")
     df["nav"] = pd.to_numeric(df["nav"], errors="coerce")
     navs[code] = df.set_index("date")["nav"].sort_index()
-    names[code] = raw["meta"]["scheme_name"].replace("UTI - Large", "UTI Large").split(" - ")[0].split("-Direct")[0].strip()
+    names[code] = raw["meta"]["scheme_name"].replace("UTI - Large", "UTI Large").split(" - ")[0].split("-Direct")[0].split(" (")[0].strip().replace("BANDHAN LARGE CAP FUND", "Bandhan Large Cap Fund")
 
 # ---- 2. Data-integrity checks ----
 checks = []
@@ -87,14 +87,14 @@ print(f"\nMedian active fund beat the index in {win_rate.median():.0f}% of rolli
 print(f"On a typical day, {share_of_funds_ahead.median():.0f}% of active funds were ahead over the past 3 years")
 
 # ---- 6. Charts ----
-fig, ax = plt.subplots(figsize=(9, 6))
+fig, ax = plt.subplots(figsize=(10, 6.5))
 colors = ["#a44a2a" if v < 50 else "#2f6f4f" for v in win_rate]
 ax.barh(win_rate.index, win_rate.values, color=colors)
 ax.axvline(50, color="grey", linestyle="--")
-ax.set_xlabel("% of rolling 3-year windows where the fund beat the Nifty 50 index fund")
-ax.set_title("How often active large-cap funds beat a Nifty 50 index fund (2013 to 2026)")
+ax.set_xlabel("% of rolling 3-year windows ahead of the Nifty 50 index fund")
+ax.set_title("How often each active fund beat the index fund, 2013 to 2026")
 plt.tight_layout()
-plt.savefig("output/rolling_win_rate.png", dpi=150)
+plt.savefig("images/rolling_win_rate.png", dpi=150)
 
 fig, ax = plt.subplots(figsize=(9, 4.5))
 ax.plot(share_of_funds_ahead.index, share_of_funds_ahead.values, color="#a44a2a")
@@ -102,7 +102,7 @@ ax.axhline(50, color="grey", linestyle="--")
 ax.set_ylabel("% of active funds ahead of the index")
 ax.set_title("Share of active large-cap funds beating the index over the previous 3 years")
 plt.tight_layout()
-plt.savefig("output/share_ahead_over_time.png", dpi=150)
+plt.savefig("images/share_ahead_over_time.png", dpi=150)
 
 growth = prices / prices.iloc[0] * 100000
 fig, ax = plt.subplots(figsize=(9, 5))
@@ -111,9 +111,10 @@ for c in codes:
         ax.plot(growth.index, growth[c], color="#cccccc", linewidth=0.8)
 ax.plot(growth.index, growth[INDEX_CODE], color="#a44a2a", linewidth=2.2, label="Nifty 50 index fund")
 ax.plot(growth.index, growth.drop(columns=INDEX_CODE).median(axis=1), color="#2f6f4f", linewidth=2, label="Median active fund")
-ax.set_ylabel("Value of Rs 1 lakh invested in Jan 2013")
-ax.set_title("Rs 1 lakh in each fund, January 2013 to today")
+ax.set_ylabel("Value in Rs lakh")
+ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{v / 100000:.0f}"))
+ax.set_title("Rs 1 lakh invested in January 2013: each active fund (grey) vs the index fund")
 ax.legend()
 plt.tight_layout()
-plt.savefig("output/growth_of_1_lakh.png", dpi=150)
+plt.savefig("images/growth_of_1_lakh.png", dpi=150)
 print("\nSaved charts and tables to output/")

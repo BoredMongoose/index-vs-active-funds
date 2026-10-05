@@ -2,7 +2,7 @@ fund,index_fund,cagr_pct,volatility_pct,sharpe,max_drawdown_pct
 Nippon India Large Cap Fund,False,14.54,16.55,0.49,-40.0
 Mirae Asset Large Cap Fund,False,14.38,15.72,0.5,-37.4
 Invesco India Large Cap Fund,False,14.36,15.55,0.51,-36.9
-ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund),False,13.92,15.18,0.49,-37.3
+ICICI Prudential Large Cap Fund,False,13.92,15.18,0.49,-37.3
 SBI Large Cap Fund,False,13.77,15.23,0.48,-37.1
 Edelweiss Large Cap Fund,False,13.45,15.05,0.46,-35.1
 Canara Robeco Large Cap Fund,False,13.37,15.2,0.45,-32.6
@@ -11,7 +11,7 @@ Aditya Birla Sun Life Large Cap Fund,False,13.02,15.33,0.43,-37.7
 Axis Large Cap Fund,False,12.97,14.64,0.44,-30.1
 Tata Large Cap Fund,False,12.48,15.76,0.38,-37.6
 HDFC Large Cap Fund,False,12.41,16.93,0.35,-40.8
-BANDHAN LARGE CAP FUND,False,12.4,15.56,0.38,-35.1
+Bandhan Large Cap Fund,False,12.4,15.56,0.38,-35.1
 UTI Large Cap Fund,False,11.97,14.97,0.37,-34.7
 HSBC Large Cap Fund,False,11.96,16.32,0.33,-36.0
 JM Large Cap Fund,False,11.83,13.49,0.39,-19.8
