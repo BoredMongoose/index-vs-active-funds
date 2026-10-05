@@ -4,6 +4,10 @@
 
 **Short answer:** Over 2013–2026, yes: 19 of 20 surviving active large-cap funds beat the UTI Nifty 50 Index Fund. But it is **streaky**, and the full-period number flatters active funds because of **survivorship bias**. Active funds won almost every 3-year window up to 2018, then most of them *lost* to the index from 2019 to 2021, and they have been winning again since 2024.
 
+<!-- latest -->
+**Latest data: 01 Oct 2026.** Over 13.7 years, the Nifty 50 index fund returned 11.05% a year; 19 of 20 surviving active funds beat it. Right now, 100% of active funds are ahead of the index over the past 3 years.
+<!-- /latest -->
+
 ## Data
 
 - Daily NAVs for every **direct plan, growth option** large-cap fund, from [api.mfapi.in](https://www.mfapi.in/) (AMFI data). That is 43 funds, including 9 that closed or merged.
@@ -47,6 +51,10 @@ Charts in `images/`: `growth_of_1_lakh.png`, `rolling_win_rate.png`, `share_ahea
 ## Business takeaway
 
 For an investor choosing a single large-cap fund, the index fund is the **safe default**: it costs the least and needs no fund-picking skill. Active large-cap funds have added value in India over this period, unlike the US, where most fail to. But the advantage comes in long cycles and is overstated by the funds that quietly closed.
+
+## Automated refresh
+
+A scheduled GitHub Actions workflow (`.github/workflows/daily-refresh.yml`) downloads the latest NAVs every weekday, reruns the data checks and analysis, and commits the updated tables, charts and the "Latest data" line above, but only when something changed.
 
 ## Reproduce
 

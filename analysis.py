@@ -117,4 +117,12 @@ ax.set_title("Rs 1 lakh invested in January 2013: each active fund (grey) vs the
 ax.legend()
 plt.tight_layout()
 plt.savefig("images/growth_of_1_lakh.png", dpi=150)
-print("\nSaved charts and tables to output/")
+print("\nSaved tables to output/ and charts to images/")
+
+# ---- 7. Latest numbers in the README (refreshed every weekday by .github/workflows/daily-refresh.yml) ----
+latest = (f"<!-- latest -->\n**Latest data: {prices.index[-1]:%d %b %Y}.** Over {years:.1f} years, the Nifty 50 index fund returned "
+          f"{index_cagr}% a year; {beat} of {len(active)} surviving active funds beat it. Right now, "
+          f"{share_of_funds_ahead.iloc[-1]:.0f}% of active funds are ahead of the index over the past 3 years.\n<!-- /latest -->")
+readme = open("README.md", encoding="utf-8").read()
+start, end = readme.index("<!-- latest -->"), readme.index("<!-- /latest -->") + len("<!-- /latest -->")
+open("README.md", "w", encoding="utf-8").write(readme[:start] + latest + readme[end:])
