@@ -5,7 +5,7 @@
 **Short answer:** Over 2013–2026, yes: 19 of 20 surviving active large-cap funds beat the UTI Nifty 50 Index Fund. But it is **streaky**, and the full-period number flatters active funds because of **survivorship bias**. Active funds won almost every 3-year window up to 2018, then most of them *lost* to the index from 2019 to 2021, and they have been winning again since 2024.
 
 <!-- latest -->
-**Latest data: 01 Oct 2026.** Over 13.7 years, the Nifty 50 index fund returned 11.05% a year; 19 of 20 surviving active funds beat it. Right now, 100% of active funds are ahead of the index over the past 3 years.
+**Latest data: 05 Oct 2026.** Over 13.7 years, the Nifty 50 index fund returned 11.09% a year; 19 of 20 surviving active funds beat it. Right now, 100% of active funds are ahead of the index over the past 3 years.
 <!-- /latest -->
 
 ## Data
