@@ -1,44 +1,44 @@
 fund,first_date,last_date,missing_navs,zero_or_negative,duplicate_dates,daily_moves_over_15pct,still_running
 HDFC Focused Large-Cap Fund,2013-01-01,2014-06-20,0,0,0,0,False
-Franklin India Large Cap Fund,2013-01-01,2026-10-05,0,0,0,0,True
-HDFC Large Cap Fund,2013-01-01,2026-10-05,0,0,0,0,True
+Franklin India Large Cap Fund,2013-01-01,2026-10-06,0,0,0,0,True
+HDFC Large Cap Fund,2013-01-01,2026-10-06,0,0,0,0,True
 DHFL Pramerica Large Cap Equity Fund,2013-01-02,2016-03-03,0,0,0,0,False
-LIC MF Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-Tata Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-Aditya Birla Sun Life Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-SBI Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-ICICI Prudential Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-Kotak Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-JM Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-Canara Robeco Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
+LIC MF Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+Tata Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+Aditya Birla Sun Life Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+SBI Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+ICICI Prudential Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+Kotak Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+JM Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+Canara Robeco Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
 ING Large Cap Equity Fund,2013-01-02,2014-10-09,0,0,0,1,False
-HSBC Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
+HSBC Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
 BNP Paribas LARGE CAP Fund,2013-01-02,2022-03-13,0,0,0,0,False
-Groww Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-Mirae Asset Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
+Groww Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+Mirae Asset Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
 Navi Large Cap Equity Fund,2013-01-02,2022-07-15,0,0,0,0,False
-Bandhan Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-UTI Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-Invesco India Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-Axis Large Cap Fund,2013-01-02,2026-10-05,0,1,0,2,True
-Nippon India Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
-DSP Large Cap Fund,2013-01-02,2026-10-05,0,0,0,0,True
+Bandhan Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+UTI Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+Invesco India Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+Axis Large Cap Fund,2013-01-02,2026-10-06,0,1,0,2,True
+Nippon India Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
+DSP Large Cap Fund,2013-01-02,2026-10-06,0,0,0,0,True
 L&T India Large Cap Fund,2013-01-02,2022-11-24,0,0,0,0,False
-UTI Nifty 50 Index Fund,2013-01-02,2026-10-05,0,0,0,0,True
+UTI Nifty 50 Index Fund,2013-01-02,2026-10-06,0,0,0,0,True
 Reliance Focused Large Cap Fund,2013-01-03,2018-04-27,0,0,0,0,False
 Baroda Large cap Fund,2013-01-04,2022-03-13,0,0,0,0,False
-Edelweiss Large Cap Fund,2013-01-08,2026-10-05,0,0,0,0,True
-PGIM India Large Cap Fund,2016-03-08,2026-10-05,0,0,0,0,True
-Union Largecap Fund,2017-05-18,2026-10-05,0,0,0,0,True
-Mahindra Manulife Large Cap Fund,2019-03-19,2026-10-05,0,0,0,0,True
-Sundaram Large Cap Fund,2020-10-12,2026-10-05,0,0,0,0,True
+Edelweiss Large Cap Fund,2013-01-08,2026-10-06,0,0,0,0,True
+PGIM India Large Cap Fund,2016-03-08,2026-10-06,0,0,0,0,True
+Union Largecap Fund,2017-05-18,2026-10-06,0,0,0,0,True
+Mahindra Manulife Large Cap Fund,2019-03-19,2026-10-06,0,0,0,0,True
+Sundaram Large Cap Fund,2020-10-12,2026-10-06,0,0,0,0,True
 Principal Large Cap Fund,2020-10-20,2021-12-30,0,0,0,0,False
-ITI Large Cap Fund,2020-12-29,2026-10-05,0,0,0,0,True
-BANK OF INDIA LARGE CAP FUND,2021-07-01,2026-10-05,0,0,0,0,True
-BARODA BNP PARIBAS LARGE CAP FUND,2022-03-14,2026-10-05,0,0,0,0,True
-quant Large Cap Fund,2022-08-12,2026-10-05,0,0,0,0,True
-WhiteOak Capital Large Cap Fund,2022-12-02,2026-10-05,0,0,0,0,True
-BAJAJ FINSERV LARGE CAP FUND,2024-08-23,2026-10-05,0,0,0,0,True
-Samco Large Cap Fund,2025-03-28,2026-10-05,0,0,0,0,True
-Parag Parikh Large Cap Fund,2026-02-06,2026-10-05,0,0,0,0,True
-JioBlackRock Large Cap Fund,2026-04-16,2026-10-05,0,0,0,0,True
+ITI Large Cap Fund,2020-12-29,2026-10-06,0,0,0,0,True
+BANK OF INDIA LARGE CAP FUND,2021-07-01,2026-10-06,0,0,0,0,True
+BARODA BNP PARIBAS LARGE CAP FUND,2022-03-14,2026-10-06,0,0,0,0,True
+quant Large Cap Fund,2022-08-12,2026-10-06,0,0,0,0,True
+WhiteOak Capital Large Cap Fund,2022-12-02,2026-10-06,0,0,0,0,True
+BAJAJ FINSERV LARGE CAP FUND,2024-08-23,2026-10-06,0,0,0,0,True
+Samco Large Cap Fund,2025-03-28,2026-10-06,0,0,0,0,True
+Parag Parikh Large Cap Fund,2026-02-06,2026-10-06,0,0,0,0,True
+JioBlackRock Large Cap Fund,2026-04-16,2026-10-06,0,0,0,0,True
