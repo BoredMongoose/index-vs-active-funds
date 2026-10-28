@@ -1,22 +1,22 @@
 fund,index_fund,cagr_pct,volatility_pct,sharpe,max_drawdown_pct
-Nippon India Large Cap Fund,False,14.44,16.54,0.48,-40.0
-Mirae Asset Large Cap Fund,False,14.3,15.71,0.5,-37.4
-Invesco India Large Cap Fund,False,14.25,15.54,0.5,-36.9
-ICICI Prudential Large Cap Fund,False,13.83,15.18,0.48,-37.3
-SBI Large Cap Fund,False,13.6,15.23,0.47,-37.1
-Edelweiss Large Cap Fund,False,13.38,15.05,0.46,-35.1
-Canara Robeco Large Cap Fund,False,13.35,15.2,0.45,-32.6
-Kotak Large Cap Fund,False,13.09,15.63,0.42,-36.9
-Axis Large Cap Fund,False,12.96,14.63,0.44,-30.1
-Aditya Birla Sun Life Large Cap Fund,False,12.94,15.33,0.42,-37.7
-Tata Large Cap Fund,False,12.47,15.76,0.38,-37.6
-Bandhan Large Cap Fund,False,12.35,15.56,0.38,-35.1
-HDFC Large Cap Fund,False,12.28,16.93,0.34,-40.8
-UTI Large Cap Fund,False,12.0,14.97,0.37,-34.7
-HSBC Large Cap Fund,False,11.82,16.31,0.33,-36.0
-JM Large Cap Fund,False,11.7,13.5,0.39,-19.8
-Groww Large Cap Fund,False,11.59,16.06,0.32,-36.6
-Franklin India Large Cap Fund,False,11.42,15.47,0.32,-36.3
+Nippon India Large Cap Fund,False,14.46,16.54,0.48,-40.0
+Invesco India Large Cap Fund,False,14.32,15.54,0.5,-36.9
+Mirae Asset Large Cap Fund,False,14.31,15.71,0.5,-37.4
+ICICI Prudential Large Cap Fund,False,13.85,15.18,0.48,-37.3
+SBI Large Cap Fund,False,13.65,15.23,0.47,-37.1
+Edelweiss Large Cap Fund,False,13.41,15.04,0.46,-35.1
+Canara Robeco Large Cap Fund,False,13.38,15.2,0.45,-32.6
+Kotak Large Cap Fund,False,13.11,15.63,0.42,-36.9
+Aditya Birla Sun Life Large Cap Fund,False,12.99,15.33,0.42,-37.7
+Axis Large Cap Fund,False,12.99,14.63,0.44,-30.1
+Tata Large Cap Fund,False,12.5,15.76,0.38,-37.6
+Bandhan Large Cap Fund,False,12.37,15.56,0.38,-35.1
+HDFC Large Cap Fund,False,12.32,16.92,0.34,-40.8
+UTI Large Cap Fund,False,12.02,14.96,0.37,-34.7
+HSBC Large Cap Fund,False,11.88,16.31,0.33,-36.0
+JM Large Cap Fund,False,11.76,13.5,0.39,-19.8
+Groww Large Cap Fund,False,11.66,16.06,0.32,-36.6
+Franklin India Large Cap Fund,False,11.45,15.47,0.32,-36.3
+LIC MF Large Cap Fund,False,11.13,15.23,0.3,-33.1
 UTI Nifty 50 Index Fund,True,11.11,16.0,0.29,-38.4
-LIC MF Large Cap Fund,False,11.08,15.23,0.3,-33.1
-DSP Large Cap Fund,False,11.04,16.46,0.28,-40.3
+DSP Large Cap Fund,False,11.03,16.46,0.28,-40.3
